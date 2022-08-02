@@ -27,14 +27,14 @@ backports.shutil-get-terminal-size==1.0.0
 backports.tempfile==1.0
 backports.weakref==1.0.post1
 bcrypt==3.2.0
-beautifulsoup4 @ file:///home/linux1/recipes/ci/beautifulsoup4_1610988766420/work
-bitarray @ file:///opt/concourse/worker/volumes/live/18d057cb-c277-4c3f-4252-651dcdf01cc1/volume/bitarray_1648739505664/work
+beautifulsoup4==4.9.3
+bitarray==2.4.1
 bkcharts==0.2
-bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
+bleach==4.1.0
 blis==0.7.8
-bokeh @ file:///opt/concourse/worker/volumes/live/d6babf7c-5642-471b-780f-d086ea2dc02d/volume/bokeh_1638362832384/work
+bokeh==2.4.2
 boto==2.49.0
-Bottleneck @ file:///opt/concourse/worker/volumes/live/51dc1780-97b5-4c4b-5601-ba5845532b9c/volume/bottleneck_1648028903302/work
+Bottleneck==1.3.4
 brewer2mpl==1.4.1
 brotlipy==0.7.0
 cached-property==1.5.2
@@ -42,25 +42,24 @@ cachetools==4.2.2
 catalogue==1.0.0
 category-encoders==2.5.0
 certifi==2021.10.8
-cffi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/croot-2p6q7e2r/cffi_1642701115063/work
-chardet @ file:///opt/concourse/worker/volumes/live/c798b2ee-88b1-4341-6830-161a92c2399e/volume/chardet_1607706832595/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cffi==1.15.0
+chardet==4.0.0
+charset-normalizer==2.0.4
 chart-studio==1.1.0
-click @ file:///opt/concourse/worker/volumes/live/709f530a-8ffd-4e02-4f5f-9b3cfddd0e0b/volume/click_1646056616410/work
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+click==8.0.4
+cloudpickle==2.0.0
 clyent==1.2.2
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+colorama==0.4.4
 colorlover==0.3.0
 conda==4.12.0
 conda-build==3.20.5
-conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
-conda-package-handling @ file:///opt/concourse/worker/volumes/live/8e46ff7c-1b09-4c05-6412-71394fdb1938/volume/conda-package-handling_1649105798380/work
+conda-pack==0.6.0
+conda-package-handling==1.8.1
 conda-verify==3.4.2
 confuse==1.7.0
-contextlib2 @ file:///Users/ktietz/demo/mc3/conda-bld/contextlib2_1630668244042/work
+contextlib2==0.6.0.post1
 couchbase==3.0.7
 cryptocurrency==1.0
-cryptography @ file:///opt/concourse/worker/volumes/live/732d2752-e4cb-4715-726b-56d890f169fb/volume/cryptography_1639414586414/work
 cufflinks==0.17.3
 cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 cymem==2.0.6
