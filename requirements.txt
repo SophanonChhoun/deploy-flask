@@ -52,10 +52,10 @@ clyent==1.2.0
 colorama==0.4.4
 colorlover==0.3.0
 conda==4.3.13
-conda-build==1.19.1
-conda-pack==0.6.0
-conda-package-handling==1.8.1
-conda-verify==3.4.2
+# conda-build==1.19.1
+# conda-pack==0.6.0
+# conda-package-handling==1.8.1
+# conda-verify==3.4.2
 confuse==1.7.0
 contextlib2==0.6.0.post1
 couchbase==3.0.7
