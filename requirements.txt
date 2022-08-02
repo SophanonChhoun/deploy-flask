@@ -305,7 +305,7 @@ smart-open==6.0.0
 # sortedcollections @ file:///tmp/build/80754af9/sortedcollections_1611172717284/work
 # sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/work
 # soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
-spacy==2.3.7
+# spacy==2.3.7
 # Sphinx @ file:///tmp/build/80754af9/sphinx_1597428793432/work
 # sphinxcontrib-applehelp @ file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work
 # sphinxcontrib-devhelp @ file:///home/ktietz/src/ci/sphinxcontrib-devhelp_1611920923094/work
