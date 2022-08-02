@@ -203,7 +203,7 @@ opencv-python==4.5.5.64
 opt-einsum==3.3.0
 # packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
 pandas==1.2.0
-pandas-datareader==0.9.0
+# pandas-datareader==0.9.0
 pandas-profiling==2.7.1
 # pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 paramiko==2.7.2
