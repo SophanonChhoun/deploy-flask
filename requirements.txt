@@ -138,13 +138,13 @@ jsonpickle==2.2.0
 # jsonschema @ file:///opt/concourse/worker/volumes/live/1beb334e-6e10-4087-469b-f1503d43266f/volume/jsonschema_1650025993686/work
 jupyter==1.0.0
 # jupyter-client @ file:///opt/conda/conda-bld/jupyter_client_1643638337975/work
-jupyter-console==7.1.2
-jupyter-core==6.4.3
-jupyter-server==1.13.5
-jupyterlab==3.3.2
-jupyterlab-pygments==0.1.2
-jupyterlab-server==2.12.0
-jupyterlab-widgets==1.0.0
+# jupyter-console==7.1.2
+# jupyter-core==6.4.3
+# jupyter-server==1.13.5
+# jupyterlab==3.3.2
+# jupyterlab-pygments==0.1.2
+# jupyterlab-server==2.12.0
+# jupyterlab-widgets==1.0.0
 kanren==0.2.3
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
