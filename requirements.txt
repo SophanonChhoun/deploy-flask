@@ -166,9 +166,9 @@ mediapipe==0.8.10
 misaka==2.1.1
 missingno==0.5.1
 # mistune @ file:///opt/concourse/worker/volumes/live/95802d64-d39c-491b-74ce-b9326880ca54/volume/mistune_1594373201816/work
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
+# mkl-fft==1.2.0
+# mkl-random==1.1.1
+# mkl-service==2.3.0
 mlxtend==0.20.0
 # mock @ file:///tmp/build/80754af9/mock_1607622725907/work
 # more-itertools @ file:///tmp/build/80754af9/more-itertools_1637733554872/work
