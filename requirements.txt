@@ -5,17 +5,17 @@ anaconda-navigator==1.10.0
 anaconda-project==0.10.2
 anyio==3.5.0
 appdirs==1.4.4
-applaunchservices @ file:///Users/ktietz/demo/mc3/conda-bld/applaunchservices_1630511705208/work
-appnope @ file:///opt/concourse/worker/volumes/live/5f13e5b3-5355-4541-5fc3-f08850c73cf9/volume/appnope_1606859448618/work
-appscript @ file:///opt/concourse/worker/volumes/live/82e8b4c7-2416-4d10-509e-144ca79d9b1d/volume/appscript_1611426996703/work
+applaunchservices==0.2.1
+appnope==0.1.2
+appscript==1.0.2
 argh==0.26.2
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///opt/concourse/worker/volumes/live/0628405f-5e68-4591-7d86-fffe9a78a449/volume/argon2-cffi-bindings_1644569695448/work
+argon2-cffi==0.26.2
+argon2-cffi-bindings==21.2.0
 asgiref==3.3.1
-asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
-astroid @ file:///opt/concourse/worker/volumes/live/ae03cca1-3196-4728-484b-27a480b0ea63/volume/astroid_1639044247852/work
+asn1crypto==1.4.0
+astroid==2.9.0
 astropy==4.0.2
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+asttokens==2.0.5
 astunparse==1.6.3
 atomicwrites==1.4.0
 attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
