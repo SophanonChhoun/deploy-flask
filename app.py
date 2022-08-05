@@ -38,13 +38,22 @@ def predict():
                 vals[row][cols] = 0
 
     df = pd.DataFrame(vals, columns=df.columns)
-    print(df.head())
     model = pickle.load(open('./models/model.pkl', 'rb'))
     output = model.predict(df)
+    df_precaution = pd.read_csv('./datasets/original/symptom_precaution.csv')
+    disease = df_precaution[df_precaution['Disease'] == output[0]]
+
 
     return app.response_class(
         response=json.dumps({
             "message": output[0],
+            "precaution": [
+                disease.iloc[0]['Precaution_1']
+                , disease.iloc[0]['Precaution_2']
+                , disease.iloc[0]['Precaution_3']
+                , disease.iloc[0]['Precaution_4']
+            ],
+            "has_diabetes": output[0] == 'Diabetes',
         }),
         status=200,
         mimetype='application/json'
