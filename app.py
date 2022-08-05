@@ -1,3 +1,4 @@
+from array import array
 import numpy as np
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -6,6 +7,7 @@ import pandas as pd
 import numpy as np
 import json
 import jsonpickle
+import math
 
 app = Flask(__name__)
 CORS(app)
@@ -42,17 +44,20 @@ def predict():
     output = model.predict(df)
     df_precaution = pd.read_csv('./datasets/original/symptom_precaution.csv')
     disease = df_precaution[df_precaution['Disease'] == output[0]]
-
+    precaution = []
+    if type(disease.iloc[0]['Precaution_1']) != float:
+        precaution.append(disease.iloc[0]['Precaution_1'])
+    if type(disease.iloc[0]['Precaution_2']) != float:
+        precaution.append(disease.iloc[0]['Precaution_2'])
+    if type(disease.iloc[0]['Precaution_3']) != float:
+        precaution.append(disease.iloc[0]['Precaution_3'])
+    if type(disease.iloc[0]['Precaution_4']) != float:
+        precaution.append(disease.iloc[0]['Precaution_4'])
 
     return app.response_class(
         response=json.dumps({
             "message": output[0],
-            "precaution": [
-                disease.iloc[0]['Precaution_1']
-                , disease.iloc[0]['Precaution_2']
-                , disease.iloc[0]['Precaution_3']
-                , disease.iloc[0]['Precaution_4']
-            ],
+            "precaution": precaution,
             "has_diabetes": output[0] == 'Diabetes',
         }),
         status=200,
