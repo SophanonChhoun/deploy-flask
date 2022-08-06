@@ -60,6 +60,7 @@ def predict():
             "precaution": precaution,
             "has_diabetes": output[0] == 'Diabetes',
             'has_heart_disease': output[0] == 'Heart attack',
+            "has_tuberculosis": output[0] == 'Tuberculosis'
         }),
         status=200,
         mimetype='application/json'
