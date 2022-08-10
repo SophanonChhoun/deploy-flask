@@ -40,18 +40,18 @@ def predict():
                 vals[row][cols] = 0
 
     df = pd.DataFrame(vals, columns=df.columns)
-    model = pickle.load(open('./models/model.pkl', 'rb'))
+    model = pickle.load(open('./models/sophanon-model.pkl', 'rb'))
     output = model.predict(df)
     df_precaution = pd.read_csv('./datasets/original/symptom_precaution.csv')
     disease = df_precaution[df_precaution['Disease'] == output[0]]
     precaution = []
-    if type(disease.iloc[0]['Precaution_1']) != float:
+    if type(disease['Precaution_1']) != float:
         precaution.append(disease.iloc[0]['Precaution_1'])
-    if type(disease.iloc[0]['Precaution_2']) != float:
+    if type(disease['Precaution_2']) != float:
         precaution.append(disease.iloc[0]['Precaution_2'])
-    if type(disease.iloc[0]['Precaution_3']) != float:
+    if type(disease['Precaution_3']) != float:
         precaution.append(disease.iloc[0]['Precaution_3'])
-    if type(disease.iloc[0]['Precaution_4']) != float:
+    if type(disease['Precaution_4']) != float:
         precaution.append(disease.iloc[0]['Precaution_4'])
 
     return app.response_class(
